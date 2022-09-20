@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>encriptador</title>
+   
+</head>
+
+
+
+
+<body>
+
+    <header>
+        <img src="logos/Vector.png">
+    </header>
+    <main>    
+   
+        <section>
+            <textarea class="mensaje" cols="50" rows="20" placeholder="Ingrese el texto que desea encriptar"></textarea>    
+        
+
+            <div class="botones">
+                <button class="encriptar" onclick="btnEncriptar()">	
+                    &#128272;ENCRIPTAR</button>
+                <button class="desencriptar" onclick="btnDesencriptar()">	
+                    &#128272;DESENCRIPTAR</button>
+            </div>
+
+        </section>
+        <section>
+            <textarea class="resultado" cols="50" rows="20"></textarea>
+            <div class="aclaracion">
+                <h2 id="negrita">No se encontro ningún mensaje</h2>
+                <p id="normal">Ingrese el texto que desea encriptar o desencriptar</p>
+
+            </div>
+
+            <button class="copiar" onclick="copiar()"> 	
+                &#10064;COPIAR</button>
+        </section>
+
+    </main>
+    <footer>
+        <section>
+            <div class="footer" ></div>
+            <p class="copyright" > &copy Copyright Brandon Luna - 2022</p>
+        </section>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
